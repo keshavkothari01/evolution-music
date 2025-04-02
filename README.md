@@ -11,16 +11,27 @@ Evolution Music is a project that uses genetic algorithms to evolve MIDI-based m
 
 ## Project structure
 evolution-music
+
 ├── PythonScripts
+
 │   ├── evolveSong.py        # Main script for evolving music
+
 │   ├── initPop.py           # Initializes the population
+
 │   ├── fitnessFunc.py       # Evaluates the quality of generated music
+
 │   ├── mutations.py         # Applies mutations to the population
+
 │   ├── midiNote.py          # Handles MIDI note encoding and decoding
+
 │   ├── writeNote.py         # Writes MIDI notes into a usable format
+
 │   ├── bits2asc.py          # Converts binary data to ASCII for processing
+
 │   ├── makeBestSong.sh      # Shell script to automate the pipeline
+
 ├── Output                   # Directory where final MIDI files are stored
+
 └── README.md                # Project documentation
 
 ## Installation
